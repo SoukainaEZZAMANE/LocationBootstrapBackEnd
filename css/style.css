@@ -1,0 +1,101 @@
+body {
+	background: url("../images/fond.jpg") fixed;
+}
+
+#contenu {
+	margin: auto;
+	background-color: #FFFFF0;
+	border-radius: 5px;
+	border: 1px solid #eec;
+	width: 1000px;
+}
+
+
+h1, h2, h3, h4, h5, h6, li {
+	font-family: "Trebuchet MS";
+}
+
+header{
+overflow: hidden;
+background: url(../images/logo.jpg);
+width: 1000px;
+height: 343px;
+}
+
+
+section {
+	margin-bottom: 20px;
+	padding: 1px 20px 10px 20px;
+}
+
+aside {
+	float: right;
+	width: 30%;
+}
+
+article {
+	float: left;
+	width: 65%;
+}
+
+form label {
+	display: inline-block;
+    vertical-align: top;
+    text-align: right;
+    width: 200px;
+}
+
+.action {
+	text-align: center;
+}
+
+input[type=submit], input[type=reset] {
+	color: #fff;
+	background-color: #141414;
+	border: 1px solid black;
+	width: 100px;
+	margin: 0 10px 0 10px;
+}
+
+input[type=submit]:hover, input[type=reset]:hover {
+	background-color: #333;
+}
+
+aside h3 {
+	border-radius: 5px;
+	background-color: #141414;
+	color: white;
+	text-align: center;
+	padding: 5px;	
+	margin: 0 0 15px 0;
+}
+
+aside h5 {
+	padding: 0px;
+	margin: 0px;
+}
+
+aside .centrer {
+	text-align: center;
+}
+
+footer {
+	clear: both;
+	text-align: center;
+}
+
+footer ul {
+	text-align: center;
+	padding: 0;
+	margin: 0;
+}
+
+footer ul li {
+    display: inline-block;
+    text-decoration: none;
+    padding: 1px 5px 1px 5px;
+}
+
+footer ul li img {
+	width: 35px;
+}
